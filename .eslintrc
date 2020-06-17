@@ -1,0 +1,14 @@
+{
+    "present": "babel-eslint",
+    "env" : {
+        "es6": true,
+        "browser":true,
+        "node": true
+    },
+    "rules" : {
+
+    },
+    "extends" : [
+        "eslint:recommendedd", "google"
+    ]
+}
