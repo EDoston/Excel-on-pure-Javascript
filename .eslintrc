@@ -1,14 +1,15 @@
 {
-    "present": "babel-eslint",
+    "parser": "babel-eslint",
     "env" : {
         "es6": true,
         "browser":true,
         "node": true
     },
-    "rules" : {
-
+    "rules":{
+        "linebreak-style": 0,
+        "semi": "off",
+        "arrow-parens":"off",
+        "comma-dangle":"off"
     },
-    "extends" : [
-        "eslint:recommendedd", "google"
-    ]
+    "extends":["eslint:recommended", "google"]
 }
